@@ -1,167 +1,22 @@
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  text-align: center;
-  background: #fff;
-  color: #3d3d3d;
-  font-size: 16px;
-  line-height: 1.7;
-  font-family: "Open Sans", sans-serif;
-}
-
+@charset "UTF-8";
 .container {
   max-width: 1140px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
-section {
-  padding: 108px;
-}
-
-.section-title {
-  position: relative;
-  font-size: 36px;
-  margin: 0 0 60px 0;
-  font-family: "Raleway", sans-serif;
-}
-
-.section-title::after {
-  position: absolute;
-  content: '';
-  bottom: -12px;
-  left: 50%;
-  width: 20%;
-  height: 10px;
-  transform: translateX(-50%);
-  background: #fbc531;
-}
-
 .splash {
-  height: 100vh;
+  height: 70vh;
   position: relative;
-  background-image: url("https://images.pexels.com/photos/2442888/pexels-photo-2442888.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
-  background-position: center center;
-  background-size: cover;
-  background-attachment: fixed;
+  background-image: src("C:UsersÚnciakÞsktopKodillamoduł 4zadanieimages.png");
 }
 
-.splash-inner {
-  position: absolute;
-  width: 100%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.splash .menu {
+  list-style: square;
 }
 
-.splash i {
-  font-size: 30px;
-  background: #fbc531;
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
-  color: #fff;
-  border-radius: 40%;
-}
-
-.page-title {
-  color: #fff;
-  font-size: 60px;
-  margin: 48px 0 0 0;
-  position: relative;
-  font-family: "Raleway", sans-serif;
-}
-
-.page-title::after {
-  position: absolute;
-  content: '';
-  bottom: -10px;
-  left: 50%;
-  width: 20%;
-  height: 10px;
-  transform: translateX(-50%);
-  background: #fbc531;
-}
-
-.page-subtitle {
-  color: #fff;
-  font-size: 18px;
-  margin: 48px;
-}
-
-.intro {
-  background: #fff;
-}
-
-.intro p {
-  width: 70%;
-  margin: 0 auto;
-  padding: 48px 0;
-  font-size: 24px;
-  border-top: 2px #fbc531 solid;
-  border-bottom: 2px #fbc531 solid;
-}
-
-.about {
-  background: #f0f0f0;
-}
-
-[class^="skill-"] {
-  position: relative;
-}
-
-.skill-image {
-  position: absolute;
-  width: 50%;
-  height: 100%;
-  z-index: 1;
-}
-
-.skill-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: all 1s;
-}
-
-.skill-right .skill-image {
-  right: 0;
-}
-
-.skill-image img:hover {
-  transform: scale 1.2, 1.2;
-  width: 120%;
-  height: 120%;
-}
-
-.skill-right .skill-description {
-  padding: 36px 55% 36px 0;
-  text-align: right;
-}
-
-.skill-left .skill-description {
-  padding: 36px 0 36px 55%;
-  text-align: left;
-}
-
-.skills p {
-  font-family: "Open Sans", sans-serif;
-  color: #273c75;
-  font-size: 20px;
-}
-
-.skills h3 {
-  font-family: "Raleway", sans-serif;
-  color: #273c75;
-  font-size: 24px;
-}
-
-.page-footer {
-  background: #242424;
-  font-family: "Open Sans", sans-serif;
-  color: #fbc531;
+.splash li {
+  display: inline;
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */

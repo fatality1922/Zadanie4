@@ -1,22 +1,93 @@
 @charset "UTF-8";
+
+
 .container {
   max-width: 1140px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
+/* splash */
 .splash {
   height: 70vh;
   position: relative;
-  background-image: src("C:UsersÚnciakÞsktopKodillamoduł 4zadanieimages.png");
+  background-image: url("../images/1.jpeg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #ffff;
+  text-align: center;
 }
 
-.splash .menu {
-  list-style: square;
+.splash-inner .title {
+  position: relative;
+  top: 200px;
+  margin: 60px 0 0 0;
+  font-size: 36px;
+  text-transform: capitalize;
 }
 
-.splash li {
-  display: inline;
+.splash-inner .subtitle {
+  position: relative;
+  top: 200px;
+  margin: 24px;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+.splash-inner .btn {
+  position: relative;
+  top: 220px;
+  min-width: 160px;
+  padding: 20x;
+  background-color: #feb236;
+  color: #ffff;
   text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 1s;
 }
+
+.splash-inner .btn:hover {
+  background-color: #ffff;
+  color:#feb236;
+}
+
+
+/* navigation */
+
+.navigation {
+  padding: 10px 0;
+}
+
+.navigation .logo a {
+  margin: 0 40px 0 40px;
+  font-size: 36px;
+  color: #feb236;
+  text-decoration: none;
+  font-family: 'Pinyon Script';
+  font-weight: 1000;
+}
+
+.navigation ul.menu {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.navigation ul.menu li {
+  display: inline-block;
+  margin-right: 36px;
+}
+
+.navigation ul.menu li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffff;
+}
+
+.navigation ul.menu li a:hover {
+  color: #feb236;
+}
+
+
 /*# sourceMappingURL=style.css.map */

@@ -19,11 +19,11 @@ $font-header: 'Raleway', sans-serif;
     background-image: src('C:\Users\Danciak\Desktop\Kodilla\moduł 4\zadanie\images\1.png');
     .menu {
         list-style: square;
+        position: absolute;
     }
     li {
         display: inline;
         text-decoration: none;
     }
 } 
-
 

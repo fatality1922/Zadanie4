@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 
+
 .container {
   max-width: 1140px;
   margin: 0 auto;
@@ -89,5 +90,45 @@
   color: #feb236;
 }
 
+/* services */
 
+.services {
+  margin-top: 36px;
+  text-align: justify;
+
+}
+.services-title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.services-subtitle {
+  text-align: center;
+  font-size: 20px;
+}
+
+.services .row  {
+margin-top: 36px;
+text-align: center;
+}
+
+.services .row h3 {
+  text-align: center;
+  font-weight: bold;
+  margin: 10px 0;
+  }
+
+.services .row p {
+  text-align: justify;
+ }
+ .services .row i {
+  width: 70px;
+  height: 70px;
+  line-height: 65px;
+  border: 2px solid #feb236;;
+  border-radius: 50%;
+  font-size: 40px;
+  color: #feb236;
+ }
 /*# sourceMappingURL=style.css.map */
